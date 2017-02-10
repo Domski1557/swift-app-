@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTapped(_ sender: Any) {
             tapCount = tapCount + 1
-        if tapCount >= 10 {
+        if tapCount >= 20 {
         coolLable.text = "You tapped the button 10 times!"
         }
     }
